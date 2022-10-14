@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h2>Online Shop</h2>
+        <!--order list-->
+        <ol type="1">
+            <li>Beras Karung 25kg</li>
+            <li>Susu Kaleng Bendera</li>
+            <li>Minyak Goreng 1 liter</li>
+            <li>Sabun Mandi Cair </li>
+        </ol>
+        <h2>Daftar Detail Barang Online Shop</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <!--kolom ke-1-->
+                    <th width="10%">NO</th>
+                    <!--kolom ke-2-->
+                    <th width="20%">Nama Barang</th>
+                    <!--kolom ke-3-->
+                    <th width="20%">Foto Produk</th>
+                    <!--kolom ke-4-->
+                    <th width="20%">Expired Produk</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">1</td>
+                    <td align="center">Beras Karung 25kg</td>
+                    <td align="center">
+                        <img src="/img/beraskarung25kg.jpg" alt="Beras Karung" width="20%">
+                    </td>
+                    <td align="center">Desember 2022</td>
+                </tr>
+                <tr>
+                    <td align="center">2</td>
+                    <td align="center">Susu Kaleng Bendera</td>
+                    <td align="center">
+                        <img src="/img/susu kaleng bendera.jpg" alt="Susu Kaleng Bendera" width="20%">
+                    </td>
+                    <td align="center">Januari 2023</td>
+                </tr>
+                <tr>
+                    <td align="center">3</td>
+                    <td align="center">Minyak Goreng 1 liter</td>
+                    <td align="center">
+                        <img src="/img/Minyak Goreng.jpg" alt="Minyak Goreng 1 liter" width="20%">
+                    </td>
+                    <td align="center">Januari 2023</td>
+                </tr>
+                <tr>
+                    <td align="center">4</td>
+                    <td align="center">Sabun Mandi Cair</td>
+                    <td align="center">
+                        <img src="/img/sabun cair.jpg" alt="Sabun Mandi Cair" width="20%">
+                    </td>
+                    <td align="center">Febuari 2023</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <h2> Formulir Pembelian Online Shop Sembako</h2>
+        <form action="daftar.html" method="post">
+            <div>
+                Nama Lengkap Pembeli
+                <input type="text" name="Nama_Pembeli" id="Nama_Pembeli" placeholder="Enter Nama Pembeli">
+            </div>
+            <div>
+                Jenis Barang Online Shop Sembako <br>
+                <select name="Jenis Barang" id="Jenis Barang">
+                    <option value="Beras">Beras Karung 25kg</option>
+                    <option value="Susu">Susu Kaleng Bendera</option>
+                    <option value="Minyak">Minyak Goreng 1 liter</option>
+                    <option value="Sabun">Sabun Mandi Cair</option>
+                </select>
+            </div>
+            <button type="submit">Selesai</button>
+            <button type="reset">Batal</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
